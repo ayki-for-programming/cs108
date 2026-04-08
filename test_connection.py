@@ -3,6 +3,7 @@ import ollama
 # Replace with your server URL
 client = ollama.Client(host='http://ollama.cs.wallawalla.edu:11434')
 
+
 def test_connection():
     try:
         # List available models
