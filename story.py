@@ -4,7 +4,7 @@ prompt = "Tell me a cool story"
 
 response = call_ollama(
     prompt, 
-    temperature=0.1, 
+    temperature=0.9, 
     top_p=0.7,
     top_k=20,
     num_predict=40
